@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar Sticky</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav id="navbar">
+            <img src="logo.png" class="logo">
+            <ul id="menu">
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>SERVICES</li>
+                <li>PRODUCT</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+    </div>
+    <p class="text">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et beatae, modi nisi reprehenderit amet rem libero deleniti temporibus perferendis, magni nemo illo perspiciatis labore voluptatem ullam. Expedita maxime optio eum!
+        Aspernatur quos voluptatum impedit quam possimus sit vero magnam suscipit ex soluta ullam modi commodi ipsum aliquam excepturi vitae dolore neque repellendus, iure earum laboriosam dolorem incidunt nam saepe. Facilis!
+        Quis aliquid dignissimos nemo doloribus est esse illo velit eveniet a incidunt eum minima hic veritatis, nisi ab id voluptas suscipit excepturi quam neque quisquam. Mollitia esse eos eligendi reprehenderit.
+        Tenetur recusandae soluta eum, non error placeat quisquam ducimus ratione amet repudiandae. Eos laboriosam, eaque explicabo necessitatibus reiciendis cumque recusandae, autem error ipsam magnam facere ea corrupti ullam vero possimus.
+        Ipsum tempora corrupti rerum fuga dolorum minus aperiam! Maiores excepturi aliquid assumenda vel quam modi labore, fuga eveniet delectus ex tempore cupiditate, consectetur asperiores culpa sint cum necessitatibus omnis aspernatur?
+        Aperiam ut ipsam labore debitis hic velit ducimus non consectetur inventore ratione. Obcaecati ducimus ut totam laudantium delectus, consequatur magnam iure eius tempore, est nam expedita quis quas vero fugiat!
+        Ullam, itaque iusto aspernatur, aliquam aut incidunt quae debitis repellendus quibusdam eos 
+    </p>
+    <p class="text">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et beatae, modi nisi reprehenderit amet rem libero deleniti temporibus perferendis, magni nemo illo perspiciatis labore voluptatem ullam. Expedita maxime optio eum!
+        Aspernatur quos voluptatum impedit quam possimus sit vero magnam suscipit ex soluta ullam modi commodi ipsum aliquam excepturi vitae dolore neque repellendus, iure earum laboriosam dolorem incidunt nam saepe. Facilis!
+        Quis aliquid dignissimos nemo doloribus est esse illo velit eveniet a incidunt eum minima hic veritatis, nisi ab id voluptas suscipit excepturi quam neque quisquam. Mollitia esse eos eligendi reprehenderit.
+        Tenetur recusandae soluta eum, non error placeat quisquam ducimus ratione amet repudiandae. Eos laboriosam, eaque explicabo necessitatibus reiciendis cumque recusandae, autem error ipsam magnam facere ea corrupti ullam vero possimus.
+        Ipsum tempora corrupti rerum fuga dolorum minus aperiam!
+    </p>
+    <p class="text">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et beatae, modi nisi reprehenderit amet rem libero deleniti temporibus perferendis, magni nemo illo perspiciatis labore voluptatem ullam. Expedita maxime optio eum!
+        Aspernatur quos voluptatum impedit quam possimus sit vero magnam suscipit ex soluta ullam modi commodi ipsum aliquam excepturi vitae dolore neque repellendus, iure earum laboriosam dolorem incidunt nam saepe. Facilis!
+        Quis aliquid dignissimos nemo doloribus est esse illo velit eveniet a incidunt eum minima hic veritatis, nisi ab id voluptas suscipit excepturi quam neque quisquam. Mollitia esse eos eligendi reprehenderit.
+        Tenetur recusandae soluta eum, non error placeat quisquam ducimus ratione amet repudiandae. Eos laboriosam, eaque explicabo necessitatibus reiciendis cumque recusandae, autem error ipsam magnam facere ea corrupti ullam vero possimus.
+        Ipsum tempora corrupti rerum fuga dolorum minus aperiam! Maiores excepturi aliquid assumenda vel quam modi labore, fuga eveniet delectus ex tempore cupiditate, consectetur asperiores culpa sint cum necessitatibus omnis aspernatur?
+        Aperiam ut ipsam labore debitis hic velit ducimus non consectetur inventore ratione. Obcaecati ducimus ut totam laudantium delectus, consequatur magnam iure eius tempore, est nam expedita quis quas vero fugiat!
+        Ullam, itaque iusto aspernatur,
+    </p>
+    <p class="text">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et beatae, modi nisi reprehenderit amet rem libero deleniti temporibus perferendis, magni nemo illo perspiciatis labore voluptatem ullam. Expedita maxime optio eum!
+        Aspernatur quos voluptatum impedit quam possimus sit vero magnam suscipit ex soluta ullam modi commodi ipsum aliquam excepturi vitae dolore neque repellendus, iure earum laboriosam dolorem incidunt nam saepe. Facilis!
+        Quis aliquid dignissimos nemo doloribus est esse illo velit eveniet a incidunt eum minima hic veritatis, nisi ab id voluptas suscipit excepturi quam neque quisquam. Mollitia esse eos eligendi reprehenderit.
+        Tenetur recusandae soluta eum, non error placeat quisquam ducimus ratione amet repudiandae. Eos laboriosam, eaque explicabo necessitatibus reiciendis cumque recusandae, autem error ipsam magnam facere ea corrupti ullam vero possimus.
+        Ipsum tempora corrupti rerum fuga dolorum minus aperiam!
+    </p>
+    <script>
+        var navbar = document.getElementById("navbar");
+        var menu = document.getElementById("menu");
+
+        window.onscroll = function(){
+            if(window.pageYOffset >= menu.offsetTop){
+                navbar.classList.add("sticky");
+            }
+            else{
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+</html>
